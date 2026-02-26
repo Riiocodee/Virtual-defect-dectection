@@ -1,12 +1,12 @@
-# 🔍 Manufacturing Defect Detection System
+#  Manufacturing Defect Detection System
 
 A comprehensive AI-powered computer vision system for detecting manufacturing defects in product images using deep learning.
 
-## 📋 Overview
+##  Overview
 
 This project implements an automated inspection system that identifies defects in product images using state-of-the-art CNN and Vision Transformer models. The system provides end-to-end capabilities from data collection to deployment with real-time inference and explainability features.
 
-## ✨ Features
+##  Features
 
 - **Multiple Model Architectures**: Custom CNN, ResNet50, EfficientNet, MobileNet, Vision Transformer
 - **Advanced Data Processing**: Comprehensive preprocessing and augmentation pipeline
@@ -51,7 +51,7 @@ Virtual_defect_detection/
 └── README.md                     # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -119,7 +119,7 @@ The system supports multiple model architectures with different trade-offs:
 | MobileNet | 3.5M | Very Fast | Medium | Very Low |
 | Vision Transformer | 86M | Slow | Very High | High |
 
-## 🔧 Configuration
+##  Configuration
 
 ### Training Parameters
 
@@ -153,7 +153,7 @@ Available optimization techniques:
 - **ONNX Conversion**: Cross-platform deployment
 - **Model Pruning**: Reduce parameter count
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 The system provides comprehensive evaluation:
 
@@ -163,7 +163,7 @@ The system provides comprehensive evaluation:
 - **Visualizations**: Confusion matrix, ROC curves, training curves
 - **Interactive Dashboards**: Plotly-based analytics
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Single Image Prediction
 
@@ -213,7 +213,7 @@ results = evaluate_and_save_results(
 )
 ```
 
-## 🔍 Grad-CAM Visualization
+##  Grad-CAM Visualization
 
 The system includes Grad-CAM for model interpretability:
 
@@ -228,7 +228,7 @@ cam = grad_cam.generate_cam(input_tensor, class_idx=1)
 overlayed = visualize_cam(cam, original_image)
 ```
 
-## ⚡ Model Optimization
+##  Model Optimization
 
 ```python
 from src.utils.model_optimization import ModelOptimizer
@@ -243,7 +243,7 @@ results = optimizer.compare_models(input_shape=(1, 3, 224, 224))
 optimizer.print_comparison_summary(results)
 ```
 
-## 🌐 Deployment Options
+##  Deployment Options
 
 ### Streamlit Web App
 - Interactive interface
@@ -268,7 +268,7 @@ def predict():
 - ONNX Runtime for cross-platform
 - TensorFlow Lite support (optional)
 
-## 📝 API Reference
+##  API Reference
 
 ### DatasetManager
 ```python
@@ -299,7 +299,7 @@ trainer.setup_training(learning_rate=0.001)
 history = trainer.train(num_epochs=50)
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run unit tests
@@ -312,7 +312,7 @@ python -c "from src.models.cnn_models import ModelFactory; ModelFactory.create_m
 python -c "from src.data.data_loader import create_data_loaders; create_data_loaders('data')"
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -324,21 +324,21 @@ python -c "from src.data.data_loader import create_data_loaders; create_data_loa
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [PyTorch](https://pytorch.org/) - Deep learning framework
 - [Streamlit](https://streamlit.io/) - Web app framework
 - [Albumentations](https://albumentations.ai/) - Data augmentation
 - [Grad-CAM](https://arxiv.org/abs/1610.02391) - Explainability technique
 
-## 📞 Support
+##  Support
 
 For questions and support:
 - Create an issue on GitHub
 - Check the [Wiki](https://github.com/your-repo/wiki) for detailed guides
 - Review the [Examples](notebooks/) directory for code samples
 
-## 🔄 Version History
+##  Version History
 
 - **v1.0.0** - Initial release with core functionality
 - **v1.1.0** - Added Vision Transformer support
