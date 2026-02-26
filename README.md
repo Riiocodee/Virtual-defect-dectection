@@ -18,7 +18,7 @@ This project implements an automated inspection system that identifies defects i
 - **Batch Processing**: Efficient processing of multiple images
 - **Interactive Analytics**: Detailed performance dashboards and visualizations
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Virtual_defect_detection/
@@ -107,7 +107,7 @@ trainer.train(num_epochs=50)
 streamlit run src/deployment/streamlit_app.py
 ```
 
-## 📊 Model Performance
+##  Model Performance
 
 The system supports multiple model architectures with different trade-offs:
 
@@ -320,7 +320,7 @@ python -c "from src.data.data_loader import create_data_loaders; create_data_loa
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
